@@ -25,7 +25,7 @@ const FileUpLoader: React.FC<FileUpLoaderProps> = ({ name }) => {
 
       store.setUploadingImage(true);
       const data = await fetch(
-        'https://api.cloudinary.com/v1_1/Codevo/image/upload',
+        'https://api.cloudinary.com/v1_1/matilake/image/upload',
         {
           method: 'POST',
           body: formData,
